@@ -49,14 +49,17 @@ When clicking on any mistake category pill, a modal displays:
 
 ### Opening the Dashboard
 
-**Method 1: Direct File Open**
+**Method 1: Direct File Open (Recommended)**
 1. Simply double-click on `dashboard.html`
 2. It will open in your default web browser
+3. No server needed - all data is embedded!
 
-**Method 2: Local Server (Recommended)**
+**Method 2: Local Server (Optional)**
 1. Open a terminal in this directory
 2. Run: `python3 -m http.server 8000`
 3. Open your browser and navigate to: `http://localhost:8000/dashboard.html`
+
+**Note:** The dashboard has all data embedded directly, so it works perfectly when opened as a local file without any server. Method 1 is the simplest and recommended approach.
 
 ### Navigating the Dashboard
 
